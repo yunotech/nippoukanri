@@ -20,9 +20,9 @@ import constants.PropertyConst;
  *
  */
 public abstract class ActionBase {
-    protected ServletContext context;
-    protected HttpServletRequest request;
-    protected HttpServletResponse response;
+    protected ServletContext context;//webアプリケーションのコンテキスト情報
+    protected HttpServletRequest request;//リクエスト情報のオブジェクト
+    protected HttpServletResponse response;//レスポンス情報のオブジェクト
 
     /**
      * 初期化処理
